@@ -1,0 +1,342 @@
+    1  git --version
+    2  ssh ec2-user@linux.itcareerhub.de
+    3  sidi
+    4  cd
+    5  [200~
+    6  keygen
+    7  ssh-keygen
+    8  cat [200~.ssh/id_ed25519.pub
+    9  cat .ssh/id_ed25519.pub
+   10  ssh ec2-user@linux.itcareerhub.de
+   11  ssh ec2-user@linux.itcareerhub.de
+   12  ssh ec2-user@linux.itcareerhub.de
+   13  ssh ec2-user@linux.itcareerhub.de
+   14  ssh ec2-user@linux.itcareerhub.de
+   15  ssh ec2-user@linux.itcareerhub.de
+   16  ssh ec2-user@linux.itcareerhub.de
+   17  [200~$ ssh ec2-user@linux.itcareerhub.de
+   18   ssh ec2-user@linux.itcareerhub.de
+   19  mkdir -p homework
+   20  cd homework
+   21  ls
+   22  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/katya/one.txt .
+   23  pdw
+   24  ssh ec2-user@linux.itcareerhub.de
+   25  ssh ec2-user@linux.itcareerhub.de
+   26  cd Desktop/
+   27  ls -la
+   28  C:\Users\megas\OneDrive\Документы\ICH\repository_github\git_intro
+   29  cd "C:\Users\megas\OneDrive\Документы\ICH\repository_github\git_intro"
+   30  ls -la
+   31  echo "# git_intro" >> README.md
+   32  ls -la
+   33  git init
+   34  ls -la
+   35  ls -la .git
+   36  md5sum README.md
+   37  git status
+   38  git add .
+   39  git status
+   40  git commit -m "first commit"
+   41  git status
+   42  git log
+   43  git branch -M main
+   44  git remote add origin git@github.com:lytKateryna/git_intro.git
+   45  git remote -v
+   46  git push -u origin main
+   47  vi README.md
+   48  git status
+   49  touch passwords.txt
+   50  git status
+   51  git add README.md 
+   52  git status
+   53  git commit -m "modified"
+   54  git log
+   55  git push
+   56  git add "C:\Users\megas\OneDrive\Документы\ICH\repository_github\cat"
+   57  git commit -m "first commit"
+   58  git add cat.png
+   59  git status
+   60  git commit -m "new file"
+   61  git log
+   62  git push
+   63  git remote add origin git@github.com:lyt.kateryna/git_intro.git
+   64  git branch -M main
+   65  cd Desktop/
+   66  ls -la
+   67  cd C:\Users\megas\OneDrive\Документы\ICH\Project_01
+   68  cd "C:\Users\megas\OneDrive\Документы\ICH\Project_01"
+   69  echo "# Project_01" >> README.md
+   70  ls -la
+   71  git init
+   72  ls -la
+   73  tree
+   74  ls -la
+   75  ls -la .git
+   76  md5sum README.md
+   77  git status
+   78  git add .
+   79  git status
+   80  git commit -m "first commit"
+   81  git config --global user.email "lyt.kateryna@gmail.com"
+   82  git config --global user.name "lytKateryna"
+   83  git status
+   84  git commit -m "first commit"
+   85  git status
+   86  git log
+   87  git branch
+   88  git branch -M main
+   89  git remote add origin git@github.com:lytKateryna/Project_01.git
+   90  git remote -v
+   91  git push -u origin main
+   92  vi README.md
+   93  git status
+   94  touch passwords.txt
+   95  git status
+   96  git add  README.md
+   97  git status
+   98  git commit -m "modified"
+   99  git log
+  100  git push
+  101  cd Desktop/
+  102  ls -la
+  103  cd C:\Users\megas\OneDrive\Документы\Java\Java-Grundlagen
+  104  cd "C:\Users\megas\OneDrive\Документы\Java\Java-Grundlagen"
+  105  git init
+  106  git add .
+  107  git commit -m "first commit"
+  108  git remote add origin https://github.com/lytKateryna/Java-Grundlagen.git
+  109  git remote -v
+  110  git push -u origin main
+  111  git branch -M main
+  112  git push -u origin main
+  113  git push -u origin main
+  114  git init
+  115  git commit -m "first commit"
+  116  git add.
+  117  git add .
+  118  ls -la
+  119  git status
+  120  git remote add origin https://github.com/lytKateryna/Java-Grundlagen.git
+  121  git push -u origin main
+  122  git init
+  123  git commit -m "first commit"
+  124  git branch -M main
+  125  git remote add origin https://github.com/lytKateryna/python-basics.git
+  126  git push -u origin main
+  127  git add .
+  128  git commit -m "first commit"
+  129  git push -u origin main
+  130  git log
+  131  whereis locate
+  132  whereis tree
+  133  whereis whereis
+  134  ssh ec2-user@linux.itcareerhub.de
+  135  ssh ec2-user@linux.itcareerhub.de
+  136  ssh ec2-user@linux.itcareerhub.de
+  137  git status
+  138  git status
+  139  git rev-parse --show-toplevel
+  140  git init
+  141  touch 1.txt; touch 2.txt
+  142  date > 1.txt; date 
+  143  date > 2.txt
+  144  git status
+  145  git add .
+  146  git status
+  147  git rm --cached 1.txt
+  148  git status
+  149  git branch -M main
+  150  git remote add origin git@github.com:lytKateryna/project_02.git
+  151  git remote -v
+  152  clear
+  153  git status
+  154  git commit -m "2.txt"
+  155  git log
+  156  git push -u origin main
+  157  git fetch all
+  158  ls -la
+  159  git status
+  160  git merge origin/main
+  161  git rebase origin/main
+  162  ls -la
+  163  git status
+  164  git push -u origin main
+  165  git branch
+  166  git checkout -b gitignore
+  167  git log
+  168  .gitignore
+  169  touch .gitignore
+  170  nano .gitignore
+  171  git add .
+  172  git commit -m "add gitignore"
+  173  touch smth.bmp
+  174  git status
+  175  git push -u origin gitignore
+  176  git branch
+  177  git log
+  178  git switch main
+  179  git branch
+  180  git log
+  181  git merge gitignore
+  182  ls -la
+  183  git status
+  184  git push
+  185  git branch -d gitignore
+  186  gi log --oneline
+  187  git log --oneline
+  188  git log --graph
+  189  git log --oneline --graph
+  190  git log --oneline --graph
+  191  git checkout 8dcad18
+  192  git log
+  193  git status
+  194  ls -la
+  195  git checkout main
+  196  nano . gitignore
+  197  nano .gitignore
+  198  git add .
+  199  git commit -m "changed .gitignore :D"
+  200  git push
+  201  git clone git@github.com:lytKateryna/hugo-coder.git
+  202  cd hugo-coder/
+  203  ls -la
+  204  git log
+  205  git log --oneline
+  206  git log --oneline --graph
+  207  cd ..
+  208  git clone git@github.com:lytKateryna/testtt.git 
+  209  cd testtt
+  210  ls -la
+  211  git remote -v
+  212  git remote add upstream https://github.com/iohichu/testtt.git
+  213  git remote -v
+  214  git checkout -b test
+  215  touch file.txt
+  216  git add .
+  217  git commit -m "add file.txt"
+  218  git checkout main
+  219  git merge test
+  220  git push
+  221  git fetch upstream
+  222  git merge upstream/main
+  223  git log
+  224  git init
+  225  git branch -m main
+  226  git remote add origin git@github.com:lytKateryna/git-branch.git
+  227  git remote -v
+  228  git status
+  229  touch 1.txt
+  230  date > 1.txt
+  231  git add .
+  232  git status
+  233  git status
+  234  git commit -m "1.txt"
+  235  git push -u origin main
+  236  git fetch all
+  237  git remote -v
+  238  git fetch --all
+  239  ls -la
+  240  git status
+  241  git merge origin/main
+  242  git rebase origin/main
+  243  ls -la
+  244  git status
+  245  git push -u origin main
+  246  git log
+  247  ls -la
+  248  git status
+  249  git branch
+  250  git checkout -b gitignore
+  251  git log
+  252  nano .gitignore
+  253  git status
+  254  git add .
+  255  git commit -m "add gitignore"
+  256  touch smth.bmp
+  257  git status
+  258  git push -u origin gitignore
+  259  git clone git@github.com:lytKateryna/git_branch.git
+  260  cd git_branch
+  261  git checkout -b gitignore
+  262  vi .gitignore
+  263  git status
+  264  git add .gitignore
+  265  git commit -m "added gitignore"
+  266  git push origin gitignore
+  267  scp ssh ec2-user@linux.itcareerhub.de:/opt/010825-ptm/katya/permission_checker.sh C:\Users\megas\OneDrive\Документы\ICH\HA\permission_checker.sh
+  268  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/katya/permission_checker.sh C:\Users\megas\OneDrive\Desktop\permission_checker.sh
+  269  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/katya/permission_checker.sh C:\Users\megas\OneDrive\Desktop\permission_checker.sh
+  270  permission_checker.sh
+  271  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/katya/permission_checker.sh  C:\Users\megas\Desktop\permission_checker.sh
+  272  scp ssh ec2-user@linux.itcareerhub.de:/opt/010825-ptm/katya/permission_checker.sh  C:\Users\megas\Desktop\permission_checker.sh
+  273  scp ec2-user@linux.itcareerhub.de:/opt/010825-ptm/katya/permission_checker.sh  /C/Users/megas/Desktop/
+  274  ssh ec2-user@linux.itcareerhub.de
+  275  git clone git@github.com:lytKateryna/260925.git
+  276  cd 260925
+  277  ls -Ra
+  278  ls -l
+  279  git checkout -b mytest
+  280  git log
+  281  git log -- oneline
+  282  touch katya.txt
+  283  git status
+  284  git add katya.txt
+  285  git status
+  286  git stash
+  287  ls -l
+  288  git stash list
+  289  git stash pop
+  290  git commit -m "added file katya + korobochka"
+  291  git log
+  292  git switch main
+  293  git log
+  294  git merge mytest
+  295  git log
+  296  git remote -v
+  297  git push main
+  298  git push
+  299  git remote -v
+  300  git remote add upstream https://github.com/iohichu/260925.git
+  301  git remote -v
+  302  git fetch --all
+  303  git merge upstream/main
+  304  git log
+  305  vi katya
+  306  git commit --amend
+  307  git clone git@github.com:lytKateryna/repo_linux.git
+  308  cd repo_linux
+  309  ls -Ra
+  310  ls -l
+  311  git checkout -b feature
+  312  git log
+  313  git log --oneline
+  314  touch README.md  .gitignore
+  315  ls -la
+  316  git status
+  317  git add README.md
+  318  git status
+  319  git restore --staged .gitignore
+  320  ls -la
+  321  git status
+  322  git commit -m "README.md"
+  323  git log
+  324  git commit -m ".gitignore"
+  325  nano README.md
+  326  nano .gitignore
+  327  git log
+  328  git remote -v
+  329  git push feature
+  330  git push
+  331   git push --set-upstream origin feature
+  332  git checkout main
+  333  git remote -v
+  334  git add README.md
+  335  git commit -m "Update README.md"
+  336  git checkout main
+  337  git checkout feature
+  338  git commit --amend -m 'Update README.md + ammend'
+  339  git push origin feature --force
+  340  git checkout main
+  341  git merge feature
+  342  history > history.txt
